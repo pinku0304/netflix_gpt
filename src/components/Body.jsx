@@ -7,6 +7,7 @@ const Body = () => {
       path: "/",
       element: <Login />,
     },
+
     {
       path: "/browse",
       element: <Browse />,
@@ -18,8 +19,6 @@ const Body = () => {
   ]);
   return (
     <div className="container pt-5">
-      {/* <Login />
-      <Browse /> */}
       <RouterProvider router={appRouter} />
     </div>
   );
